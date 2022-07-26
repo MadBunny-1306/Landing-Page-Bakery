@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: arial;
+}
+
+body {
+  background-color: rgba(83, 24, 149, 0.5);
+  position: relative;
+}
+
+.banner {
+  height: 100px;
+  background: linear-gradient(rgba(83, 24, 149, 0.4), rgba(83, 24, 149, 0.4)),
+    url(/Assests/img/banner.jpg);
+  background-position: center;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  width: 100%;
+  position: fixed;
+}
+
+.logo {
+  color: white;
+  font-family: "Allura", cursive;
+  font-size: 35px;
+  font-weight: bold;
+  text-shadow: 0 0 6px rgb(48, 48, 48);
+  cursor: pointer;
+  margin-right: 100px;
+}
+
+.cakePicture {
+  display: inline-block;
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-top: 150px;
+  box-shadow: 3px 3px 6px rgba(83, 24, 149, 0.651);
+  width: 600px;
+  height: 600px;
+}
+
+.cake-img {
+  width: 100%;
+  height: 100%;
+}
+
+.info {
+  display: inline-block;
+  position: absolute;
+  margin-top: 200px;
+}
+
+.headline-div {
+  margin-top: 40px;
+  margin-bottom: 80px;
+}
+
+.headline {
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+  margin-left: 20px;
+  line-height: 1.4;
+  text-shadow: 1px 1px 2px rgba(83, 24, 149, 0.651);
+}
+
+.choose-div {
+  margin-bottom: 30px;
+}
+
+.choose {
+  color: #531895;
+  font-size: 17px;
+}
+
+span {
+  margin-left: 70px;
+  margin-right: 70px;
+  color: #5218955e;
+}
+
+button {
+  background: transparent;
+  border: 2px solid white;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 15px 30px;
+  cursor: pointer;
+  box-shadow: 2px 2px 5px rgba(83, 24, 149, 0.651);
+  transition: 0.4s ease;
+}
+
+button:hover {
+  background-color: rgba(83, 24, 149, 0.651);
+  border: 2px solid rgba(82, 24, 149, 0.075);
+}
+
+.order-button {
+  display: inline-block;
+  width: 300px;
+  margin-left: 90px;
+}
+
+.customize-button {
+  width: 300px;
+  display: inline-block;
+  margin-left: 250px;
+}
+
+.order {
+  margin: 10px 10px;
+}
+/*---
+.order:active {
+  margin-top: 15px;
+  margin-bottom: 5px;
+  margin-left: 15px;
+  margin-right: 5px;
+  transition: 0.1s;
+  box-shadow: none;
+}--*/
+/*---
+hr {
+  width: 80%;
+  height: 2px;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  background-color: rgba(255, 255, 255, 0.144);
+  border: none;
+}
+--*/
