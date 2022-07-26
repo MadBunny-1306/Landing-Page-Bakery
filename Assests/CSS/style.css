@@ -11,7 +11,7 @@ body {
 
 .banner {
   height: 100px;
-  background: linear-gradient(rgba(83, 24, 149, 0.4), rgba(83, 24, 149, 0.4)),
+  background: linear-gradient(rgba(83, 24, 149, 0.5), rgba(83, 24, 149, 0.5)),
     url(/Assests/img/banner.jpg);
   background-position: center;
   display: flex;
@@ -36,7 +36,11 @@ body {
   margin-left: 80px;
   margin-right: 80px;
   margin-top: 150px;
-  box-shadow: 3px 3px 6px rgba(83, 24, 149, 0.651);
+
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+
   width: 600px;
   height: 600px;
 }
@@ -54,7 +58,7 @@ body {
 
 .headline-div {
   margin-top: 40px;
-  margin-bottom: 80px;
+  margin-bottom: 60px;
 }
 
 .headline {
@@ -63,11 +67,14 @@ body {
   font-weight: bold;
   margin-left: 20px;
   line-height: 1.4;
-  text-shadow: 1px 1px 2px rgba(83, 24, 149, 0.651);
+  text-shadow: 2px 2px 4px rgba(83, 24, 149, 0.651);
 }
 
-.choose-div {
-  margin-bottom: 30px;
+.buttons-div {
+  display: inline-block;
+  text-align: center;
+  margin-left: 50px;
+  margin-bottom: 20px;
 }
 
 .choose {
@@ -75,54 +82,48 @@ body {
   font-size: 17px;
 }
 
-span {
-  margin-left: 70px;
-  margin-right: 70px;
-  color: #5218955e;
-}
-
 button {
-  background: transparent;
-  border: 2px solid white;
+  border: none;
+  border-radius: 10px;
   color: white;
   font-size: 15px;
   font-weight: bold;
-  padding: 15px 30px;
+  padding: 15px 35px;
   cursor: pointer;
   box-shadow: 2px 2px 5px rgba(83, 24, 149, 0.651);
+  margin-bottom: 30px;
+  background-image: linear-gradient(
+    to right,
+    #9d50bb 0%,
+    #6e48aa 51%,
+    #9d50bb 100%
+  );
+  background-size: 200% auto;
   transition: 0.4s ease;
 }
 
 button:hover {
+  border: none;
+  box-shadow: 2px 2px 5px rgba(83, 24, 149, 0.651);
   background-color: rgba(83, 24, 149, 0.651);
-  border: 2px solid rgba(82, 24, 149, 0.075);
+  background-position: right center;
 }
 
-.order-button {
-  display: inline-block;
-  width: 300px;
-  margin-left: 90px;
+.discount {
+  text-align: center;
+  margin-top: 40px;
 }
 
-.customize-button {
-  width: 300px;
-  display: inline-block;
-  margin-left: 250px;
+.discount p {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-shadow: 1px 1px 2px rgba(83, 24, 149, 0.651);
 }
 
-.order {
-  margin: 10px 10px;
-}
 /*---
-.order:active {
-  margin-top: 15px;
-  margin-bottom: 5px;
-  margin-left: 15px;
-  margin-right: 5px;
-  transition: 0.1s;
-  box-shadow: none;
-}--*/
-/*---
+
 hr {
   width: 80%;
   height: 2px;
@@ -131,4 +132,6 @@ hr {
   background-color: rgba(255, 255, 255, 0.144);
   border: none;
 }
+
+         
 --*/
