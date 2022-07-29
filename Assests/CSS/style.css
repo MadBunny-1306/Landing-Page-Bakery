@@ -19,6 +19,7 @@ body {
   align-items: center;
   width: 100%;
   position: fixed;
+  z-index: 100;
 }
 
 .logo {
@@ -122,16 +123,70 @@ button:hover {
   text-shadow: 1px 1px 2px rgba(83, 24, 149, 0.651);
 }
 
-/*---
+.popular {
+  font-size: 35px;
+  font-family: "Allura", cursive;
+  color: white;
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 50px;
+}
+
+.menu-grid {
+  display: grid;
+  grid-template-columns: 200px 200px 200px 200px 200px;
+  column-gap: 70px;
+  margin-left: 300px;
+}
+
+.cakes {
+  height: 270px;
+  box-shadow: 0 0 8px #52189556;
+  margin-bottom: 50px;
+}
+
+.cake1 {
+  width: 190px;
+  height: 190px;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+.cake1:hover {
+  transform: scale(1.4);
+}
+
+.cakes p {
+  color: white;
+  text-shadow: 0 0 5px #521895e7;
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-bottom: 14px;
+}
+
+.cakes a {
+  color: white;
+  background-color: #521895bd;
+  cursor: pointer;
+  padding: 5px 8px;
+  border-radius: 3px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-left: 95px;
+}
+
+.cakes a:active {
+  opacity: 0.8;
+}
 
 hr {
-  width: 80%;
+  width: 90%;
   height: 2px;
   margin-top: 100px;
   margin-bottom: 50px;
   background-color: rgba(255, 255, 255, 0.144);
   border: none;
+  margin-left: 70px;
 }
-
-         
---*/
